@@ -1,0 +1,26 @@
+{
+  "name": "evaa-tester",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "@types/qrcode": "^1.5.5",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@evaafi/sdk": "^0.6.2-c",
+    "@ton/crypto": "^3.3.0",
+    "@ton/ton": "^15.2.1",
+    "@tonconnect/sdk": "^3.1.0",
+    "dotenv": "^16.4.7",
+    "path": "^0.12.7",
+    "qrcode": "^1.5.4"
+  }
+}
